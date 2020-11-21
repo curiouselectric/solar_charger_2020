@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SolarCharger2018-cache)(type Legacy)(uri ${KIPRJMOD}/SolarCharger2018-cache.lib)(options "")(descr ""))
+  (lib (name SolarCharger2018-rescue)(type Legacy)(uri ${KIPRJMOD}/SolarCharger2018-rescue.lib)(options "")(descr ""))
+  (lib (name SolarCharger2020-rescue)(type Legacy)(uri ${KIPRJMOD}/SolarCharger2020-rescue.lib)(options "")(descr ""))
+)
