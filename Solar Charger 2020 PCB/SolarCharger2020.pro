@@ -1,4 +1,4 @@
-update=31/10/2020 16:18:31
+update=17/12/2020 14:43:59
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,51 +6,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=SolarCharger2017_OUTPUT/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[eeschema]
-version=1
-LibDir=../../../../../../KiCAD/kicad_reinnovation/KiCad My Libraries
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=D:/Google Drive/KiCAD/KiCad My Libraries/matts_components
-LibName31=E:/Google Drive/KiCAD/KiCad My Libraries/matts_components
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -100,3 +55,16 @@ SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[eeschema]
+version=1
+LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=output/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

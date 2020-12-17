@@ -1,33 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:matts_components
 LIBS:SolarCharger2020-cache
 EELAYER 29 0
 EELAYER END
@@ -392,8 +363,8 @@ F 13 "~" H 3250 2350 60  0001 C CNN "Supplier 2 Cost"
 	1    3250 2350
 	1    0    0    -1  
 $EndComp
-Text Notes 3150 4800 0    60   ~ 0
-Ts pulled high for solar charing applications\nLimited current mode to ensure battery temperature OK\nPull high with 100k \n\nVDPM\nKept open for load tracking, such as solar PV \nVDPM to ground using\nRVDPM= (VBUS_DPM–VBUS_DPM_1)/KVBUS_DPM \n= (4.6 V - 3.5 V) / ( 0.15V/kΩ) = 7.333kΩ → 7.32kΩ \nclosest 1% resistor\n\nIset\n2W of solar PV gives 400mA maximum\nRiset = Kiset/Iout Iout = 400mA. Kiset = 395Aohm. Riset = 987.5. \nClose to 1k\n\nEN tied to PG as load mode never used
+Text Notes 2950 6550 0    60   ~ 0
+Ts pulled high for solar charging applications\nLimited current mode to ensure battery temperature OK\nPull high with 100k \n\nVDPM\nKept open for load tracking, such as solar PV \nVDPM to ground using\nRVDPM= (VBUS_DPM–VBUS_DPM_1)/KVBUS_DPM \n= (4.6 V - 3.5 V) / ( 0.15V/kΩ) = 7.333kΩ → 7.32kΩ \nclosest 1% resistor\n\nIset\n2W of solar PV gives 400mA maximum\nRiset = Kiset/Iout Iout = 400mA. Kiset = 395Aohm. Riset = 987.5. \nClose to 1k\n\nEN tied to PG as load mode never used
 Wire Wire Line
 	3400 2150 3250 2150
 Wire Wire Line
@@ -460,10 +431,6 @@ F 3 "" H 1800 2100 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1700 1550 2050 1550
-Text Notes 7600 4800 0    60   ~ 0
-DC/DC Converter for 5V output\nWant it to switch on when current drawn?\nIs this possible?\nUsing: MIC2288YD5-TR
-Text Notes 7550 3650 0    60   ~ 0
-Recharge LiPo fro USB if available\n
 Wire Wire Line
 	4850 1550 5150 1550
 Wire Wire Line
